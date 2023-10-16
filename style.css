@@ -1,43 +1,64 @@
+body{
+}
 #content{
-	width: 888px;
-    background-color: white;
-    
+max-width: 888px;
+    width: auto;
+    margin: 0 auto;
+    background-color: azure;
+
 }
 #imageright{
-	float:right;
+	float: right;
+    max-width: 200px;
+    width: auto;
     margin-left: 20px;
-    width: 300px;
+    border: 1px solid forestgreen;
+    padding: 10px;
+    border-radius: 20px;
+}
+#imageright img{
+    max-width: 200px;
+    width: auto;
 }
 #imageleft{
-	float: left;
-    margin-left: 40px;
-    margin-bottom: 80px;
+    float: left;
+	max-width: 300px;
+    width: auto;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border: 1px solid forestgreen;
+    padding: 10px;
+    border-radius: 20px;
+}
+#imageleft img{   
+	max-width: 300px;
+    width: auto;
 }
 .kepszoveg{
-	font-style: italic;
-    font-weight: bold;
+	font-weight: bold;
+    font-style: italic;
     text-align: center;
 }
-h1, h2{
-    text-transform: uppercase;
-    color:forestgreen;
-}
-a, a:visited{
-    color:blue
+a{
+    text-decoration: none;
+    color: blue;
 }
 a:hover{
     color: red;
 }
-.kepj{
-    border-radius: 16px;
-    border: 2px forestgreen;
-    width: 300px;
-    float: right;
-
+h1,h2{
+    text-transform: uppercase;
+    color: forestgreen;
 }
-.kepb{
-    border-radius: 16px;
-    border: 2px forestgreen;
-    width: 300px;
-    float: left;
+p,li{
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    #imageright{
+        float: none;
+    }
+    #imageleft{
+        float:none;
+    }
 }
