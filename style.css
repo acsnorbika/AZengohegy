@@ -1,10 +1,7 @@
-body{
-}
+
 #content{
-max-width: 888px;
-    width: auto;
-    margin: 0 auto;
-    background-color: azure;
+    max-width: 888px;
+
 
 }
 #imageright{
@@ -57,8 +54,10 @@ p,li{
 @media screen and (max-width: 600px) {
     #imageright{
         float: none;
+        margin: 0 auto;    
     }
     #imageleft{
-        float:none;
+        float: none;
+        margin: 0 auto;
     }
 }
