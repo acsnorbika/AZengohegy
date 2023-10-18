@@ -1,8 +1,5 @@
-
 #content{
     max-width: 888px;
-
-
 }
 #imageright{
 	float: right;
@@ -14,7 +11,7 @@
     border-radius: 20px;
 }
 #imageright img{
-    max-width: 200px;
+    max-width: 100%;
     width: auto;
 }
 #imageleft{
@@ -28,7 +25,7 @@
     border-radius: 20px;
 }
 #imageleft img{   
-	max-width: 300px;
+	max-width: 100%;
     width: auto;
 }
 .kepszoveg{
